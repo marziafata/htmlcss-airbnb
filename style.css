@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgrey;
+}
+
+main {
+    background-color: white;
+    width: 250px;
+    height: 712px;
+    margin: 50px auto;
+    padding: 12.5px;
+}
+
+p {
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: 24px;
+    text-shadow: 2px 2px black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.roma {
+    background-image: url(roma.jpg);
+    background-size: cover;
+    background-position: right;
+    width: 225px;
+    height: 225px;
+    position: relative;
+}
+
+.layover1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0);
+}
+
+.layover1:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.copenaghen {
+    background-image: url(copenaghen.jpg);
+    background-size: cover;
+    margin-top: 5px;
+    width: 225px;
+    height: 225px;
+    position: relative;
+}
+
+.layover2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0);
+}
+
+.layover2:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.tokyo {
+    background-image: url(tokyo.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 5px;
+    width: 225px;
+    height: 225px;
+    position: relative;
+}
+
+.layover3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0);
+}
+
+.layover3:hover {
+    background-color: rgba(0,0,0,0.5);
+}
